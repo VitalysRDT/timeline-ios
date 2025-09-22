@@ -1,0 +1,60 @@
+{
+  "parameters": {
+    "cards_data": {
+      "defaultValue": {
+        "value": "[]"
+      },
+      "description": "JSON array of game cards",
+      "valueType": "JSON"
+    },
+    "max_players": {
+      "defaultValue": {
+        "value": "8"
+      },
+      "description": "Maximum number of players per game",
+      "valueType": "NUMBER"
+    },
+    "lobby_countdown": {
+      "defaultValue": {
+        "value": "60"
+      },
+      "description": "Lobby countdown duration in seconds",
+      "valueType": "NUMBER"
+    },
+    "round_duration": {
+      "defaultValue": {
+        "value": "30"
+      },
+      "description": "Round duration in seconds",
+      "valueType": "NUMBER"
+    }
+  },
+  "conditions": [],
+  "parameterGroups": {
+    "Game Settings": {
+      "parameters": {
+        "max_players": {
+          "defaultValue": {
+            "value": "8"
+          },
+          "description": "Maximum number of players per game",
+          "valueType": "NUMBER"
+        },
+        "lobby_countdown": {
+          "defaultValue": {
+            "value": "60"
+          },
+          "description": "Lobby countdown duration in seconds",
+          "valueType": "NUMBER"
+        },
+        "round_duration": {
+          "defaultValue": {
+            "value": "30"
+          },
+          "description": "Round duration in seconds",
+          "valueType": "NUMBER"
+        }
+      }
+    }
+  }
+}
